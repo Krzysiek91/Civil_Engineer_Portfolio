@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-#firstSection img{
+#homeSection img{
     display: block;
     margin: 30px auto 30px auto;
     vertical-align: middle;
@@ -11,12 +11,12 @@
     box-shadow: 10px 10px 5px #888888;
 }
 
-#firstSection p{
+#homeSection p{
     margin: 25px auto;
     text-shadow: 2px 2px #fff;
 }
 
-#secondSection img{
+#carouselSection img{
     border: #555 solid 2px;
     box-shadow: 10px 10px 5px #888888;
     z-index: -1;
@@ -28,7 +28,7 @@
 div.gallery {
     border: 1px solid #ccc;
     float: left;
-    width: 200px; 
+    width: 200px;
     margin-bottom: 15px;
 }
 
@@ -86,7 +86,8 @@ div.desc {
 
 
 .featurette-divider {
-    margin: 5rem 0; 
+    margin: 5rem 0;
+}
 
 .featurette-heading {
     font-weight: 300;
@@ -113,6 +114,35 @@ div.desc {
 }
 
 
+#educationSection{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#educationSection h2{
+    color: black;
+    margin-bottom: 15px;
+}
+
+#educationSection img{
+    margin-top: 20px;
+    border: 5px solid #ddd;
+    border-radius: 5px;
+}
+#experienceSection .container-fluid{
+    margin: 0 5% 0 5%;
+}
+
+.jobTitle{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+#experienceSection ul{
+    margin-bottom: 50px;
+}
     
     
     

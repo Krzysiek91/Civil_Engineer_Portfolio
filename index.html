@@ -23,22 +23,25 @@
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
+                <a class="nav-link" href="#educationSection">Education</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Work Experience</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="#gallerySection">Gallery</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact/Downloads</a>
+                <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Downloads</a>
             </li>
         </ul>
     </div>
 </nav>
 
-<section id='firstSection'>
+<section id='homeSection'>
     <div class='container-fluid jumbotron'>
         <div class="row">
             <div class="col-lg-5">
@@ -58,7 +61,7 @@
     </div>
 </section>
 
-<section id="secondSection">
+<section id="carouselSection">
     <div id="carouselExampleIndicators" class="carousel slide col-md-10 offset-md-1 col-lg-8 offset-lg-2" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -95,7 +98,7 @@
     </div>
 </section>
 
-<section id='thirdSection' class='jumbotron'>
+<section id='gallerySection' class='jumbotron'>
     <div class='container-fluid'>
 
         <div class='row'>
@@ -163,7 +166,80 @@
     </div>
 </section>
 
-<footer class="footer">
+
+<section id="educationSection">
+    <div class="container">
+        <a href="http://pwr.edu.pl/en/" target="_blank"><h2>University of Technology in Wroclaw</h2></a>
+        <h5>Bachelor’s Degree, Field of study: Civil Engineering</h5>
+        <h5>Specialization: Construction of Roads and Bridges</h5>
+        <img src="images/diploma.jpeg">
+    </div>
+</section>
+
+<section id='experienceSection' class='jumbotron'>
+    <div class='container-fluid'>
+        <div class='jobTitle'>
+            <h2>Site Engineer in Firma Uslugowa Monika Nowak</h2>
+            <h6>04.2012 – 01.2015</h6>
+        </div>
+        <h5>RESPONSIBILITIES</h5>
+        <ul>
+            <li>construction and improvement of large size sewer stormwater and water mains</li>
+            <li>roads and car parks construction</li>
+            <li>paving services</li>
+            <li>Leading construction crew on site</li>
+            <li>Supervision of task performance in accordance with project and design specification</li>
+            <li>Representing a contractor on site and during meetings with investors and site inspectors</li>
+            <li>Site measurements using TOPCONTotal Station</li>
+            <li>Preparation of SWMS, Job Hazard Analysis, Risk Management, Work Method Procedures</li>
+            <li>Revision of Quality Assurance documents</li>
+            <li>Preparation of Progress Claims, site reports</li>
+            <li>AutoCAD drafting</li>
+            <li>assistance in drawing up cost estimation, creating tender documentation</li>
+        </ul>
+
+        <div class='jobTitle'>
+            <h2>Site Engineer in Hasson Projects Pty Ltd</h2>
+            <h6>04.2015 – 02.2016</h6>
+        </div>
+        <h5>RESPONSIBILITIES</h5>
+        <ul>
+            <li>Plant hire services</li>
+            <li>Construction of carparks and driveways</li>
+            <li>Detailed and bulk earthworks</li>
+            <li>Construction of timber walkways</li>
+            <li>Organisation and supervision of construction process</li>
+            <li>Human Resources management on site</li>
+            <li>Materials and equipment delivery management</li>
+            <li>Preparation of SWMS, Job Hazard Analysis, Risk Management, Work Method Procedures</li>
+            <li>Revision of Quality Assurance documents</li>
+            <li>Creation of the site reports</li>
+            <li>Cubit Build Soft: taking off construction measurements and material quantities</li>
+            <li>AutoCAD drafting</li>
+            <li>Assistance in drawing up cost estimation and creating tender documentation</li>
+            <li>Preparation of hire schedules and process control</li>
+        </ul>
+    </div>
+
+    <div class='jobTitle'>
+        <h2>Project Engineer in CLMU Pty Ltd</h2>
+        <h6>02.2016 – 05.2016</h6>
+    </div>
+    <h5>RESPONSIBILITIES</h5>
+    <ul>
+        <li>Leading construction crew on site</li>
+        <li>Survey and site set outs; familiarity with Trimble Total Station and TOPCON GPS Rover</li>
+        <li>Liaison with a client</li>
+        <li>Materials delivery management</li>
+        <li>Preparation of SWMS, Job Hazard Analysis, Risk Management, Work Method Procedures</li>
+        <li>Revision of Quality Assurance documents</li>
+        <li>Creation of as-built documentation</li>
+    </ul>
+
+</section>
+
+
+<footer id="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-5">
@@ -183,10 +259,10 @@
             <div class="col-md-5">
                 <form>
                     <fieldset class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        <input type="email" class="form-control" placeholder="Enter email">
                     </fieldset>
                     <fieldset class="form-group">
-                        <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                        <textarea class="form-control" placeholder="Message"></textarea>
                     </fieldset>
                     <fieldset class="form-group text-xs-right">
                         <button type="button" class="btn btn-secondary-outline btn-sm">Send</button>
