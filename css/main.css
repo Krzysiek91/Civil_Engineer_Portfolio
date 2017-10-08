@@ -143,7 +143,31 @@ div.desc {
 #experienceSection ul{
     margin-bottom: 50px;
 }
-    
+
+.show{
+    /*display: none;*/
+    color: #ffa500;
+    text-decoration: underline;
+}
+
+#downloadsSection{
+    margin: 40px 0 40px 0;
+}
+
+#downloadsSection p{
+    margin-left: 5%;
+    font-size: 1.2em;
+}
+
+#downloadsSection i:hover{
+    color: red;
+}
+
+#downloadsSection h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
     
     
     
